@@ -1,8 +1,11 @@
 # chrom-track
 
 *TODO:* 
+
 *1. Add user input for: mpp, fps, track linking parameters, plot or not, fit with noise or not*
+
 *2. Implement loc. error calculation*
+
 *3. Add choice of passing multiple directories for different conditions (eg transcribing or not)*
 
 
