@@ -3,9 +3,11 @@ My code for chromatin tracking analyses.
 
 Download this folder or just the yml file and navigate in the conda terminal to the directory. Then run:
 
-```conda env create -f environment.yml
+```
+conda env create -f environment.yml
 conda activate chrom-track
-jupyter notebook```
+jupyter notebook
+```
 
 This will install the dependencies, activate the environment, and open up jupyter notebook. 
 Now you can open chromtrack.ipynb, change the directory path to your files, and run. 
