@@ -2,11 +2,9 @@
 
 *TODO:* 
 
-*1. Add user input for: mpp, fps, track linking parameters, plot or not, fit with noise or not*
+*1. Make user parameter input easier*
 
-*2. Implement loc. error calculation*
-
-*3. Add choice of passing multiple directories for different conditions (eg transcribing or not)*
+*2. Add choice of passing multiple directories for different conditions (eg transcribing or not) and comparing them*
 
 
 My code for chromatin tracking analyses.
@@ -22,8 +20,8 @@ jupyter notebook
 This will install the dependencies, activate the environment, and open up jupyter notebook. 
 Now you can open chromtrack.ipynb, change the directory path to your files, and run. 
 
-The example dataset is in 'uf_roi' folder and contains 19x19 ROI movies around a labeled genomic locus.
+The example dataset is in 'telomeres' folder and contains ThunderStorm localization csvs of dCas9-labeled telomeres in U2OS cells, imaged at 20 Hz.
 
-The output is a plot of: (1) the recovered trajectory, (2) the MSD, and (3) the MSD fit for each movie/locus, and at the end boxplots of the estimated parameters for all movies/loci.
+The outputs are: (1) the recovered trajectories, (2) the iMSDs, and (3) the MSD fits (D* and alpha), and various plots.
 
-An example successful run is saved in chromtrack.html
+
