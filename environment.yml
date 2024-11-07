@@ -1,0 +1,19 @@
+# environment.yaml
+
+name: chrom-track
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python>=3.5
+  - anaconda
+  - pip
+  - numpy 
+  - matplotlib
+  - pandas
+  - seaborn
+  - scipy
+  - trackpy
+  - pims
+  - jupyter

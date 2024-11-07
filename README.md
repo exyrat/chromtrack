@@ -1,2 +1,29 @@
-# chromtrack
-my code for chromatin tracking analyses
+# chrom-track
+
+*TODO:* 
+
+*1. Add user input for: mpp, fps, track linking parameters, plot or not, fit with noise or not*
+
+*2. Implement loc. error calculation*
+
+*3. Add choice of passing multiple directories for different conditions (eg transcribing or not)*
+
+
+My code for chromatin tracking analyses.
+
+Download this folder or just the yml file and navigate in the conda terminal to the directory. Then run:
+
+```
+conda env create -f environment.yml
+conda activate chrom-track
+jupyter notebook
+```
+
+This will install the dependencies, activate the environment, and open up jupyter notebook. 
+Now you can open chromtrack.ipynb, change the directory path to your files, and run. 
+
+The example dataset is in 'uf_roi' folder and contains 19x19 ROI movies around a labeled genomic locus.
+
+The output is a plot of: (1) the recovered trajectory, (2) the MSD, and (3) the MSD fit for each movie/locus, and at the end boxplots of the estimated parameters for all movies/loci.
+
+An example successful run is saved in chromtrack.html
