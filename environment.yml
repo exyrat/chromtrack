@@ -17,3 +17,4 @@ dependencies:
   - trackpy
   - pims
   - jupyter
+  - statannotations
