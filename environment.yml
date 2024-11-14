@@ -9,6 +9,7 @@ dependencies:
   - python>=3.5
   - anaconda
   - pip
+  - statannotations
   - numpy 
   - matplotlib
   - pandas
@@ -17,4 +18,4 @@ dependencies:
   - trackpy
   - pims
   - jupyter
-  - statannotations
+  
