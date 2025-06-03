@@ -9,11 +9,11 @@
 
 My code for chromatin tracking analyses.
 
-Download this folder or just the yml file and navigate in the conda terminal to the directory. Then run:
+Download this folder or just the yml file and navigate in the miniforge terminal to the directory. Then run:
 
 ```
-conda env create -f environment.yml
-conda activate chrom-track
+mamba env create -f environment.yml
+mamba activate chrom-track
 jupyter notebook
 ```
 
