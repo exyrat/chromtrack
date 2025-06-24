@@ -24,4 +24,6 @@ The example dataset is in 'telomeres' folder and contains ThunderStorm localizat
 
 The outputs are: (1) the recovered trajectories, (2) the iMSDs, and (3) the MSD fits (D* and alpha), and various plots.
 
+compare.ipynb can be used to compare two datasets (the example data in the //compare// folder is just a copy of the same dataset, so there will be no difference)
+
 
